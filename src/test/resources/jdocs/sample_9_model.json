@@ -1,0 +1,9 @@
+{
+  "docs": [
+    {
+      "jdocs_arr_pk": "{\"field\":\"index\"}",
+      "index": "{\"type\":\"integer\"}",
+      "name": "{\"type\":\"string\"}"
+    }
+  ]
+}

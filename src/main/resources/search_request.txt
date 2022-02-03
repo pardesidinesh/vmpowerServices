@@ -1,0 +1,2 @@
+{index:["${indexPattern}"], "ignore_unavailable":true, "preference":1589289986834}
+{"version":true, "size":1000, "sort":[]} ------- get IT from request

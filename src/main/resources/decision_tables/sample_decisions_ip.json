@@ -1,0 +1,22 @@
+{
+	"target_record_format":"JAVA_OBJ",
+	"container_class":"com.krish.empower.decision_table.DTInput",
+	"decision_table":{
+		"fields":[
+			{
+				"source": "$.application.match.score",
+				"target": "values(score)"
+			},
+			{
+				"source": "$.application.employee[number=%].birthYear",
+				"source_doc_indeces":["#number"],
+				"target": "values(yob)"
+			},
+			{
+				"source": "$.application.employee[number=%].id",
+				"source_doc_indeces":["#number"],
+				"target": "values(code)"
+			}
+		]
+	}
+}
